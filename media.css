@@ -106,11 +106,11 @@
 @media (max-width: 767px) {
 
   .home__background {
-    background-image: url(img/logo.png);
+    background-image: url(img/fondo2.jpg);
     
     background-attachment: fixed;
     background-size: cover;
-    background-position: top;
+    background-position: center;
   
   }
 
