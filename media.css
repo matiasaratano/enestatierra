@@ -11,7 +11,7 @@
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.97);
+    background: rgba(0, 0, 0, 0.7);
     font-size: 16px;
     margin: 0 -20px;
     z-index: 10;
@@ -106,9 +106,9 @@
 @media (max-width: 767px) {
 
   .home__background {
-    background-image: url(img/codigo5.jpeg);
+    background-image: url(img/fondo2.jpg);
     background-attachment: fixed;
-    background-size: inherit;
+    background-size: cover;
     background-position: center;
   }
 

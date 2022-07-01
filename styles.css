@@ -58,7 +58,7 @@ section {
 .navbar {
   position: fixed;
   background: transparent;
- transition: background 0.3s;
+ /*transition: background 0.3s;*/
   display: flex;
   justify-content: space-between;
   height: 60px;
