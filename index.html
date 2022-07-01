@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="En esta tierra. Departamentos en Villa Gesell, Argentina, complejo turistico."
+    />
+    <meta
+      property="og:description"
+      content="En esta tierra. Departamentos en Villa Gesell, Argentina, complejo turistico. "
+    />
+    <meta property="og:title" content="En esta tierra" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Matias Aratano | Frontend Developer"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>En esta tierra - Villa Gesell</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <img id="logo" src="img/logo.png" />
+         </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Inicio</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">Nosotros</a>
+          </li>
+          <li class="navbar__link" data-ref="services">
+            <a href="#services">Departamentos</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Servicios</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">Nosotros</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>En esta tierra, Villa Gesell.</h2>
+            <p>
+              Complejo de departamentos en Villa Gesell, Argentina.
+            </p>
+
+            <p>
+              Somos un complejo familiar vas a encontrar lugares para descansar y para jugar.
+              Te invitamos a conocernos !
+              Estamos ubicados a media cuadra del mar en la zona centro de Villa Gesell, a pocas cuadras del muelle (AV1 Nº1750)
+              Ofrecemos alojamiento a familias y parejas que quieran venir a relajarse y estar en un espacio seguro y calmo. 
+              Contamos con departamentos de 1, 2 y 3 ambientes, luminosos y con vista a nuestros amplios jardines, completamente equipados, con tv por cable, cocina completa, gas natural, agua corriente, wi-fi por fibra óptica, estacionamiento en predio cerrada y semi-cubierto y espacios de uso común y quincho.
+            </p>
+            <a
+              class="button--cta"
+              href="CV.pdf"
+              download="Matias Aratano CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>My skills</h2>
+            </div>
+             <div class="skill__item">
+              <img src="img/html.png" alt="HTML icon"/>
+              <div class="skill__name">HTML</div>
+            </div> 
+            <div class="skill__item">
+              <img src="img/css.png" alt="CSS icon"/>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/sass.png" alt="SASS icon"/>
+              <div class="skill__name">SASS</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">Javascript</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/git.png" alt="Git icon"/>
+              <div class="skill__name">Git</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-github"></i>
+              <div class="skill__name">GitHub</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/figma.png" alt="Figma icon"/>
+              <div class="skill__name">Figma</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section__title">Services</h2>
+        <h3 class="section__subtitle">Services I offer to my clients</h3>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Fully Responsive</h3>
+            <p>
+              Your site will display properly on any device, including desktop
+              computers, tablets and mobile phones.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>Creative Design</h3>
+            <p>
+              A good and attractive web design helps you keep your leads on your
+              site, which is the digital face of your business.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Development</h3>
+            <p>
+              I know the importance of web design and can help you create a
+              website you’ll love.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>Social Media Integration</h3>
+            <p>
+              There are a lot of social platforms out there, and you should
+              promote your presence on them on your website
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Performance</h3>
+            <p>
+              Retaining users is crucial to improving conversions.
+              High-performing sites engage and retain users
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-crosshairs"></i>
+            <h3>SEO</h3>
+            <p>
+              I will optimize your site with intelligent Search Engine
+              Optimization strategy to generate leads.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">Here you can see the projects I have worked on.</h3>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/qrgesell.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Qr Gesell</h3>
+              <p class="portfolio__description--text">
+                Qr gesell Web Page
+              </p>
+              <div class="buttons__container">
+                
+                <a
+                  class="button"
+                  href="https://github.com/matiasaratano/QrGesell"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+                <a
+                  class="button"
+                  href="https://matiasaratano.github.io/QrGesell/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/anto.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Teacher Anto</h3>
+              <p class="portfolio__description--text">
+                Anto's Web Page
+              </p>
+              <div class="buttons__container">
+                
+                <a
+                  class="button"
+                  href="https://github.com/matiasaratano/Anto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+                <a
+                  class="button"
+                  href="https://matiasaratano.github.io/Anto/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/laberinto.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Laberinto</h3>
+              <p class="portfolio__description--text">
+                Laberinto Website
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://laberintogesell.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+             
+              </div>
+            </div>
+          </div> 
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/codepen2.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Codepen</h3>
+              <p class="portfolio__description--text">
+                Some Proyects
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://codepen.io/TuteMatias"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+              
+              </div>
+
+             </div>
+
+          </div>
+         
+
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <h3 class="section__subtitle">
+          Contact me if you want us to work together.
+        </h3>
+        <div class="contact__grid">
+          <a
+            href="mailto:matiasaratano@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              <p>Mail Me</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/matiasaratano"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/matiaratano"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-twitter"></i>
+              <p>Follow Me</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/matias-aratano-90760b150/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+              <p>Contact Me</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="#">Matias Aratano</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
