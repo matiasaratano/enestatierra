@@ -107,9 +107,11 @@
 
   .home__background {
     background-image: url(img/fondo2.jpg);
+    /*
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+  */
   }
 
   .portfolio__img {
@@ -125,12 +127,12 @@
   }
 
   .home__title {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .home__title--primary,
   .home__title--secondary {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .skill__title {
@@ -142,7 +144,7 @@
   }
 
   .skill__item {
-    font-size: 50px;
+    font-size: 30px;
     padding: 5px;
     min-width: 75px;
     height: 85px;
