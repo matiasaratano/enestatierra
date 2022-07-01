@@ -108,7 +108,7 @@
   .home__background {
     background-image: url(img/fondo2.jpg);
     background-attachment: fixed;
-    background-size: inherit;
+    background-size: cover;
     background-position: center;
   
   }
