@@ -106,12 +106,12 @@
 @media (max-width: 767px) {
 
   .home__background {
-    background-image: url(img/fondo2.jpg);
-    /*
+    background-image: url(img/fondo.jpg);
+    
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-  */
+    background-position: top;
+  
   }
 
   .portfolio__img {
