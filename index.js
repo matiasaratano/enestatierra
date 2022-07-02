@@ -2,6 +2,7 @@ const navbar = document.querySelector(".navbar");
 const homebg = document.querySelector(".home__background");
 const menu = document.querySelector(".navbar__menu");
 const links = document.querySelector(".navbar__links");
+const logo = document.querySelector("#logo");
 const sections = document.querySelectorAll("section");
 const config = {
   rootMargin: "0px",
@@ -19,7 +20,9 @@ links.addEventListener("click", handleLlinks);
 
 window.addEventListener("scroll", function () {
   window.scrollY > 100 && (navbar.style.background = `rgba(0,0,0,0.9)`);
+  window.scrollY > 100 && (logo.src = `img/logo2.png`);
   window.scrollY < 100 && (navbar.style.background = `transparent`);
+  window.scrollY < 100 && (logo.src = `img/logo.png`);
 });
 
 let observer = new IntersectionObserver(function (entries, self) {

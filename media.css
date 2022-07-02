@@ -118,7 +118,9 @@
     background-position: center;
   }
 
-  
+  .about__grid{
+    font-size: 14px;
+  }
 
   .portfolio__img {
     object-fit: contain;
@@ -134,6 +136,11 @@
 
   .home__title {
     font-size: 25px;
+  }
+
+  .section__subtitle {
+    
+    font-size: 16px;
   }
 
   .home__title--primary,
@@ -160,6 +167,7 @@
   .portfolio__grid {
     grid-template-columns: 1fr;
     gap: 20px;
+    font-size: 14px;
   }
 
 
