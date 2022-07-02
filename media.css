@@ -105,22 +105,12 @@
 
 @media (max-width: 767px) {
 
-  .home {
-    min-height: 100vh;
-    
-    
-  }
-
-  .home__background {
-    
+ .home__background {
     background-image: url(img/fondo2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    
-    
-   
-  }
+    }
 
   .portfolio__img {
     object-fit: contain;
