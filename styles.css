@@ -13,7 +13,8 @@
   --blue:#3367d6;
   --orange:#e34c26;
   --green:#008744;
-  --blueReact: #61DBFB;
+  --blueReact: #30b1e5
+  ;
 }
 
 a {
@@ -160,8 +161,8 @@ section {
 
 .about__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr;
+  
 }
 
 .about__description {
@@ -181,13 +182,17 @@ section {
 
 .about__description h2 {
   color: var(--grey);
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .about__skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+}
+
+.about__description i {
+  font-size: 30px;
 }
 
 .skill__title {
@@ -268,6 +273,7 @@ section {
   transition: all 0.3s;
   font-size: 30px;
   margin: 20px 0;
+  color: var(--blueReact);
 }
 
 .fa-mobile-alt{
@@ -389,11 +395,17 @@ section {
     );
   color: var(--grey);
   padding: 5px 30px;
-  display: inline-block;
+ 
   align-self: center;
   margin: 20px auto;
   font: bold;
   border-radius: 5px;
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
 }
 
 .button--cta i {
@@ -409,53 +421,27 @@ section {
 }
 
 .contact__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  display: flex;
 }
 
 .contact__item {
-  color: var(--grey);
+  
   padding: 40px;
   transition: all 0.3s;
 }
 
-.fa-envelope{
-  color: var(--red);
-}
-
-.fa-github{
-  color: black;
-}
-
-.fa-twitter{
-  color: #00acee;
-}
-
-.fa-linkedin-in{
-  color:#0e76a8  ;
-}
 
 .contact__item i {
-  font-size: 20px;
+  font-size: 35px;
   margin-bottom: 10px;
+  color: var(--blueReact);
 }
 
-.fa-envelope:hover {
+.contact__item i:hover {
   transition: all 0.3s;
   color: var(--grey);
-}
-.fa-github:hover {
-  transition: all 0.3s;
-  color: var(--grey);
-}
-.fa-twitter:hover {
-  transition: all 0.3s;
-  color: var(--grey);
-}
-.fa-linkedin-in:hover {
-  transition: all 0.3s;
-  color: var(--grey);
+
+
 }
 .active a {
   color: #f5f5f5;
