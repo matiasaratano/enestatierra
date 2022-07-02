@@ -123,7 +123,8 @@
   }
 
   .portfolio__img {
-    object-fit: contain;
+    object-fit: cover;
+    max-height: 250px;
   }
 
   section {
