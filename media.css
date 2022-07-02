@@ -105,6 +105,12 @@
 
 @media (max-width: 767px) {
 
+  .home {
+    min-height: 100vh;
+    display: flex;
+    
+  }
+
   .home__background {
     display: flex;
     background-image: url(img/fondo2.jpg);
@@ -112,6 +118,8 @@
     background-size: cover;
     background-position: center;
     object-fit: contain;
+    height: 100%;
+    width: 100%;
    
   }
 
