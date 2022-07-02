@@ -397,14 +397,14 @@ section {
   padding: 5px 30px;
  
   align-self: center;
-  margin: 20px auto;
+  margin-top: 20px;
   font: bold;
-  border-radius: 5px;
+  border-radius: 2px;
   display: flex;
   width: 150px;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
 
 }
 
