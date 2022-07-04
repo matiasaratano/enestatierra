@@ -139,6 +139,10 @@
     font-size: 25px;
   }
 
+  .services__item {
+    padding: 5px;
+  }
+
   .section__subtitle {
     
     font-size: 16px;
