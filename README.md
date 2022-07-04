@@ -5,4 +5,6 @@
 
 Website de complejo turistico En Esta Tierra, Villa Gesell, Buenos Aires, Argentina
 
+Para el desarrollo de este sitio utilice HTML, CSS y un poco de Javascript.
+
 matiasaratano.github.io/enestatierra
