@@ -502,3 +502,13 @@ button:active {
   transform: translateY(-1px);
 }
 
+.map{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.map iframe{
+  width: 100%;
+  
+}
