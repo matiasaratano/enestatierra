@@ -215,7 +215,7 @@ section {
 }
 
 .skill__item {
-  font-size: 55px;
+  font-size: 40px;
   color: var(--grey);
   /*padding: 35px;*/
   transition: all 0.3s;
@@ -416,7 +416,6 @@ section {
   width: 150px;
   justify-content: center;
   align-items: center;
-  
 
 }
 
