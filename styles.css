@@ -51,6 +51,10 @@ section {
   padding: 0 20px;
 }
 
+.iframe {
+  margin-top: 350px;
+}
+
 #logo {
   width: 150px;
   height: 60px;

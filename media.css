@@ -18,6 +18,11 @@
     transition: all 0.5s;
   }
 
+  .iframe {
+    display: none;
+  }
+
+
   .visible {
     display: flex;
     transform: translateX(0);
@@ -149,6 +154,10 @@
   .section__subtitle {
     
     font-size: 16px;
+  }
+
+  .iframe {
+    display: none;
   }
 
   .home__title--primary,
