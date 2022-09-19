@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'); */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 :root {
   --white: #ffffff;
