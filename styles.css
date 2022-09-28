@@ -487,6 +487,10 @@ section {
   color: var(--blue);
 }
 
+.lista {
+  list-style-type: none;
+}
+
 .buttonI {
   margin-top: 30px;
   margin-bottom: 10px;
