@@ -190,15 +190,15 @@ section {
 }
 
 #services {
-  background-color: beige;
+  background-color: lavender;
 }
 
 #portfolio {
-  background-color: antiquewhite;
+  background-color: aliceblue;
 }
 
 #contact {
-  background-color: floralwhite;
+  background-color: lavender;
 }
 
 .about__summary {
@@ -326,7 +326,7 @@ section {
   object-fit: cover;
   overflow: hidden;
   font-size: 14px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .portfolio__img {
@@ -335,7 +335,6 @@ section {
   object-fit: cover;
   display: block;
   transition: all 1s;
-  border-radius: 10px;
   max-height: 190px;
 }
 
@@ -381,49 +380,7 @@ section {
   display: flex;
   border-radius: 10px;
 }
-/*
-.button {
-  background: #191919;
-  color: #f5f5f5;
-  padding: 5px 10px;
-  display: inline-block;
-  margin: auto;
-}
 
-.button:hover {
-  color: var(--blue);
-}
-
-.button--cta {
-
-  background: var(--blueReact
-    );
-  color: var(--grey);
-  padding: 5px 30px;
- 
-  align-self: center;
-  margin-top: 20px;
-  font: bold;
-  border-radius: 2px;
-  display: inline-flex;
-  width: 150px;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.button--cta i {
-  margin-right: 10px;
-}
-
-.button--cta:hover {
-  background: var(--blue);
-  color: white;
-}
-.button .fa-github:before {
-  color: white;
-}
-*/
 .contact__grid {
   display: flex;
   justify-content: center;
