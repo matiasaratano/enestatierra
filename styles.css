@@ -487,7 +487,7 @@ section {
   color: var(--blue);
 }
 
-button {
+.buttonI {
   margin-top: 30px;
   margin-bottom: 10px;
   padding: 1.3em 3em;
@@ -502,15 +502,15 @@ button {
   outline: none;
 }
 
-button:hover {
+.buttonI:hover {
   background-color: var(--blueReact);
   /*box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.52);*/
   color: #fff;
   transform: translateY(-5px);
 }
 
-button:active {
-  transform: translateY(-1px);
+.buttonI:active {
+  transform: translateY(-0.5px);
 }
 
 .map {
@@ -521,15 +521,4 @@ button:active {
 
 .map iframe {
   width: 100%;
-}
-
-.foto-grande {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
