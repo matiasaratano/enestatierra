@@ -244,29 +244,6 @@ section {
   max-height: 50px;
   max-width: 100px;
 }
-.fa-node {
-  color: #3c873a;
-}
-
-.fa-html5 {
-  color: #e34c26;
-}
-
-.fa-css3-alt {
-  color: #264de4;
-}
-
-.fa-js {
-  color: #f0db4f;
-}
-
-.fa-git-alt {
-  color: #f34f29;
-}
-
-.fa-react {
-  color: var(--blueReact);
-}
 
 .skill__name {
   font-size: 14px;
