@@ -503,3 +503,12 @@ section {
 .map iframe {
   width: 100%;
 }
+
+.popup-gallery {
+  margin: 10px;
+}
+
+.section__subtitle__fotos {
+  margin: 25px;
+  color: #000;
+}

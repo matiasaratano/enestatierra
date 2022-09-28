@@ -302,6 +302,41 @@
             </a>
           </div>
         </div>
+        <h3 class="section__subtitle__fotos">
+          Fotos de interiores de algunos de nuestros departamentos.
+        </h3>
+        <div class="popup-gallery">
+          <a href="img/int1.jpg"
+            ><img src="img/int1.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int2.jpg"
+            ><img src="img/int2.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int3.jpg"
+            ><img src="img/int3.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int4.jpg"
+            ><img src="img/int4.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int5.jpg"
+            ><img src="img/int5.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int6.jpg"
+            ><img src="img/int6.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int7.jpg"
+            ><img src="img/int7.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int8.jpg"
+            ><img src="img/int8.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int9.jpg"
+            ><img src="img/int9.jpg" width="150" height="150"
+          /></a>
+          <a href="img/int10.jpg"
+            ><img src="img/int10.jpg" width="150" height="150"
+          /></a>
+        </div>
       </div>
     </section>
     <section id="contact">
@@ -387,6 +422,28 @@
           mainClass: 'mfp-img-mobile',
           image: {
             verticalFit: true,
+          },
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('.popup-gallery').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          tLoading: 'Loading image #%curr%...',
+          mainClass: 'mfp-img-mobile',
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+          },
+          image: {
+            tError:
+              '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function (item) {
+              return '<small>En Esta Tierra - Interiores</small>';
+            },
           },
         });
       });
