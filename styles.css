@@ -326,7 +326,6 @@ section {
   object-fit: cover;
   overflow: hidden;
   font-size: 14px;
-  border-radius: 5px;
 }
 
 .portfolio__img {
@@ -358,8 +357,7 @@ section {
   visibility: visible;
   opacity: 1;
   transition: all 0.5s;
-  border-radius: 10px;
-  transform: translateY(-300px);
+  transform: translateY(-200px);
 }
 
 .portfolio__item:hover .portfolio__img {
