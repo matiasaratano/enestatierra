@@ -1,4 +1,4 @@
-const navbar = document.querySelector('.navbar');
+const navbar = document.querySelector('.navbar2');
 const homebg = document.querySelector('.home__background');
 const menu = document.querySelector('.navbar__menu');
 const links = document.querySelector('.navbar__links');
