@@ -467,3 +467,19 @@ section {
   margin: 25px;
   color: #000;
 }
+
+.b {
+  display: none;
+}
+
+.fotos-exteriores {
+  display: block;
+}
+
+.fotos-interiores {
+  display: block;
+}
+
+.fotos-title {
+  color: #000;
+}
