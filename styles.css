@@ -175,7 +175,7 @@ section {
 
 .section__title {
   color: var(--grey);
-  font-size: 25px;
+  font-size: 50px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
@@ -208,7 +208,7 @@ section {
   width: 150px;
   height: 60px;
 }
-
+/*
 #about {
   background-color: aliceblue;
 }
@@ -224,7 +224,7 @@ section {
 #contact {
   background-color: lavender;
 }
-
+*/
 .about__summary {
   margin: 30px 0;
 }
@@ -508,3 +508,4 @@ section {
   color: #000;
   padding: 10px;
 }
+
