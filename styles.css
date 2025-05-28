@@ -407,28 +407,28 @@ section {
 
 .portfolio__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
 .portfolio__item {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+  aspect-ratio: 1;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
 .portfolio__item:hover {
   transform: translateY(-5px);
-}
-
-.portfolio__img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  display: block;
 }
 
 .portfolio__description {
@@ -600,13 +600,20 @@ section {
 }
 
 @media (max-width: 767px) {
-  .fotos-container {
-    grid-template-columns: 1fr;
+  .portfolio__grid {
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    padding: 0.5rem;
   }
-  
-  #portfolio .portfolio__img {
-    height: 300px;
+
+  .portfolio__item {
+    aspect-ratio: 1;
+  }
+
+  .portfolio__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .map iframe {
