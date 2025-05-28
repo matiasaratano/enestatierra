@@ -36,9 +36,7 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar__logo">
-          <p class="navbar__title">
-            <img id="logo" src="img/logo.png" />
-          </p>
+          <img id="logo" src="img/logonuevo.png" alt="En esta tierra logo" />
         </div>
         <div class="navbar__menu">
           <i class="fas fa-bars"></i>
@@ -80,7 +78,12 @@
       </div>
     </nav>
     <section id="home" class="home">
-      <div class="home__background"></div>
+      <div class="home__background">
+        <video autoplay loop muted playsinline>
+          <source src="video.mp4" type="video/mp4">
+          Tu navegador no soporta videos de fondo.
+        </video>
+      </div>
     </section>
 
 
@@ -91,17 +94,20 @@
         <h2 class="section__title">Nosotros</h2>
         <div class="about__grid">
           <div class="about__description">
-            <div class="about__logo"><img src="img/logo.png" /></div>
-            <h2>En esta tierra</h2>
-            <p>Complejo de departamentos.</p>
+            <img src="img/logo.jpg" alt="Logo En esta tierra" class="section-separator-logo">
+            <!-- <div class="about__logo"><img src="img/logo.png" /></div> -->
+            <!-- <h2>En esta tierra</h2>
+            <p style="font-size: 20px;">Complejo de departamentos.</p> -->
 
             <p>
               Estamos ubicados a media cuadra del mar en la zona centro de Villa
-              Gesell. Ofrecemos alojamiento a familias y parejas que quieran
-              venir a relajarse y estar en un espacio seguro y tranquilo.
-              Contamos con departamentos de 1, 2 ambientes y duplex, luminosos y
-              completamente equipados.
+              Gesell. 
+              
             </p>
+            <p>Ofrecemos alojamiento a familias y parejas que quieran
+              venir a relajarse y estar en un espacio seguro y tranquilo.</p>
+              <p>Contamos con departamentos de 1, 2 ambientes y duplex, luminosos y
+                completamente equipados.</p>
             <br />
             <ul>
               <li class="lista">DirecTV</li>
@@ -123,6 +129,7 @@
 
 <!-- <img src="img/colores.png" width="100%" alt="separador" /> -->
 
+  
 
     <section id="services">
       <div class="container">
@@ -187,29 +194,33 @@
 
     <section id="portfolio">
       <div class="container">
+        <div class="section__header">
         <h2 class="section__title">Fotos</h2>
         <h3 class="section__subtitle">
           Algunas fotos del complejo, para ver mas podes seguirnos en Instagram.
         </h3>
-        <div class="fotos-exteriores">
-          <h4 class="fotos-title">Fotos exteriores</h4>
-          <a href="exteriores.html">
-            <img
-              class="portfolio__img"
-              alt="portfolio item"
-              src="img/foto2.jpg"
-            />
-          </a>
-        </div>
-        <div class="fotos-interiores">
-          <h4 class="fotos-title">Fotos interiores</h4>
-          <a href="interiores.html">
-            <img
-              class="portfolio__img"
-              alt="portfolio item"
-              src="img/int.jpg"
-            />
-          </a>
+      </div>
+        <div class="fotos-container">
+          <div class="fotos-exteriores">
+            <h4 class="fotos-title">Fotos exteriores</h4>
+            <a href="exteriores.html">
+              <img
+                class="portfolio__img"
+                alt="portfolio item"
+                src="img/foto2.jpg"
+              />
+            </a>
+          </div>
+          <div class="fotos-interiores">
+            <h4 class="fotos-title">Fotos interiores</h4>
+            <a href="interiores.html">
+              <img
+                class="portfolio__img"
+                alt="portfolio item"
+                src="img/int.jpg"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -261,7 +272,7 @@
           </a>
         </div>
       </div>
-      <div class="about__logo"><img src="img/logo.png" /></div>
+      <img src="img/logo.jpg" alt="Logo En esta tierra" class="section-separator-logo">
     </section>
     
     <div class="map">
@@ -278,7 +289,7 @@
     <footer class="footer">
       <div class="container">
         <p>
-          Copyright © 2021. <a href="#">MA Design</a> <br />
+          Copyright © 2025. <a href="#">MA Design</a> <br />
           All Rights Reserved
         </p>
       </div>
